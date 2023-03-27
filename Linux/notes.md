@@ -155,7 +155,7 @@ watch on file using -w
 `sudo auditctl -h`
 <img width="673" alt="image" src="https://user-images.githubusercontent.com/106802147/227867717-aa1aa99c-1915-4f46-8d67-ab2880968265.png">
 
-sudo tail -f /etc/audit/audit.log
+sudo tail -f /var/log/audit/audit.log
 <img width="1390" alt="image" src="https://user-images.githubusercontent.com/106802147/227868242-bae43749-da99-4ef7-b9cc-d2aeb4e6cad8.png">
 
 loadpin, you can not load arbitrary 
@@ -194,4 +194,17 @@ unconfined runs without restriction,
 
 
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/106802147/227899956-14295660-8f11-45af-bd08-e9af2e04dfae.png">
+
+selinux user
+
+<img width="697" alt="image" src="https://user-images.githubusercontent.com/106802147/227900703-d6477fe1-56d1-4939-b9ee-80d0ad275786.png">
+
+<img width="702" alt="image" src="https://user-images.githubusercontent.com/106802147/227900772-114c15a0-436f-4564-81f1-83df957e8b08.png">
+
+`ls -lZ` - context: user role type msl level
+
+<img width="868" alt="image" src="https://user-images.githubusercontent.com/106802147/227901283-d11024b5-3f8a-4154-b515-4db5bb202917.png">
+
+<img width="979" alt="image" src="https://user-images.githubusercontent.com/106802147/227901767-8a5d4233-99f2-406a-a741-df2e469300a6.png">
+
 

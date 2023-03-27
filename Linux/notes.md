@@ -232,3 +232,14 @@ WHEN WE get access vector cache error, how to setup new policy
 
 once lockdown enabled, no going back (but try system restart)
 
+<img width="574" alt="image" src="https://user-images.githubusercontent.com/106802147/227918293-287d95fe-3e75-4889-8dcf-18e41e9c76c5.png">
+
+`lsmod` - list loaded module
+
+<img width="682" alt="image" src="https://user-images.githubusercontent.com/106802147/227919059-2a50f68f-4b4c-4e43-b738-e627893f2161.png">
+
+untrusted module can not be loaded when confidentiality is enabled.
+
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/106802147/227919189-4c748f14-ed19-44a8-9981-21f12adcddf2.png">
+
+untrusted module can not be loaded when confidentiality is enabled.

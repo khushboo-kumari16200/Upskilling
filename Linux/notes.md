@@ -223,7 +223,6 @@ WHEN WE get access vector cache error, how to setup new policy
 
 <img width="739" alt="image" src="https://user-images.githubusercontent.com/106802147/227914925-b38e9062-e92f-4c85-acc6-5eab702e04dc.png">
 
-<img width="749" alt="image" src="https://user-images.githubusercontent.com/106802147/227908176-4c4f48d3-b57c-4494-9689-9f6013e50625.png">
 
 `strings /bin/ls` -> extract string from binary
 

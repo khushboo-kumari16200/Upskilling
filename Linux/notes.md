@@ -157,3 +157,21 @@ watch on file using -w
 
 sudo tail -f /etc/audit/audit.log
 <img width="1390" alt="image" src="https://user-images.githubusercontent.com/106802147/227868242-bae43749-da99-4ef7-b9cc-d2aeb4e6cad8.png">
+
+loadpin, you can not load arbitrary 
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/106802147/227891528-7144986a-60dd-4154-8108-b2cb27f4c657.png">
+
+<img width="804" alt="image" src="https://user-images.githubusercontent.com/106802147/227891902-45390e6d-5862-4076-85cd-6bf4f6626c1b.png">
+
+<img width="713" alt="image" src="https://user-images.githubusercontent.com/106802147/227887306-7ff144ce-e015-43d5-b1da-3187b89dc4bc.png">
+
+if you see something then, you have LSM
+<img width="304" alt="image" src="https://user-images.githubusercontent.com/106802147/227892623-ada508e1-6dbc-43bc-9bb0-b5724c3a6b0e.png">
+
+LIST OF LSM 
+
+<img width="683" alt="image" src="https://user-images.githubusercontent.com/106802147/227892818-99c6d2fe-8c3d-44b1-a69b-2f5584ca7600.png">
+appmaror is turned off on instructor system
+
+<img width="476" alt="image" src="https://user-images.githubusercontent.com/106802147/227893809-0ac4a7fc-ab87-4ab4-bb07-9f306aa057b1.png">
+

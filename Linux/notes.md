@@ -249,4 +249,17 @@ safely switch to user account, as switched user account can access everything th
 <img width="680" alt="image" src="https://user-images.githubusercontent.com/106802147/227921256-ddbd977c-9b73-43d3-9d13-e029fa26e572.png">
 
 
+<img width="702" alt="image" src="https://user-images.githubusercontent.com/106802147/227921914-a595420c-54d8-46fb-8ba1-14cd8fac53ef.png">
 
+`ifconfig`
+
+<img width="528" alt="image" src="https://user-images.githubusercontent.com/106802147/227922712-a171350c-c810-4b74-b0dc-08fa029c37e5.png">
+
+`ip addr show`
+
+<img width="637" alt="image" src="https://user-images.githubusercontent.com/106802147/227923084-1055efbe-8e1a-4a4c-bc92-a4889e8a77ee.png">
+
+add ip
+<img width="574" alt="image" src="https://user-images.githubusercontent.com/106802147/227918293-287d95fe-3e75-4889-8dcf-18e41e9c76c5.png">
+
+`ip route` 

@@ -263,3 +263,20 @@ add ip
 <img width="574" alt="image" src="https://user-images.githubusercontent.com/106802147/227918293-287d95fe-3e75-4889-8dcf-18e41e9c76c5.png">
 
 `ip route` 
+
+`ip neigh`
+
+below layer 3 
+`ip link`
+
+IProute2 commands cheatsheet: https://www.baturin.org/docs/iproute2/
+
+`ss` - socket
+
+tcp socket
+`ss -t`
+
+<img width="1097" alt="image" src="https://user-images.githubusercontent.com/106802147/227924378-dc540f48-3d19-4a5f-bb04-34d5e84c4d26.png">
+
+<img width="726" alt="image" src="https://user-images.githubusercontent.com/106802147/227924593-54107360-d84c-4e5f-8410-716dfd621380.png">
+

@@ -146,3 +146,10 @@ Ubuntu
 <img width="531" alt="image" src="https://user-images.githubusercontent.com/106802147/227865298-2fcc2c15-e1cc-49d8-8d0f-36a641c4e02f.png">
 
 <img width="673" alt="image" src="https://user-images.githubusercontent.com/106802147/227865863-1fae4413-2e89-4b34-a6a7-2d57a45eb34a.png">
+
+`sudo aureport`
+
+<img width="969" alt="image" src="https://user-images.githubusercontent.com/106802147/227866931-67048f73-e073-4bb3-8709-92ebcd4f7c01.png">
+
+<img width="673" alt="image" src="https://user-images.githubusercontent.com/106802147/227867717-aa1aa99c-1915-4f46-8d67-ab2880968265.png">
+

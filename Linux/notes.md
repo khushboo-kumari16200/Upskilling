@@ -176,3 +176,22 @@ appmaror is turned off on instructor system
 <img width="476" alt="image" src="https://user-images.githubusercontent.com/106802147/227893809-0ac4a7fc-ab87-4ab4-bb07-9f306aa057b1.png">
 
 <img width="709" alt="image" src="https://user-images.githubusercontent.com/106802147/227894563-a9745086-6ee0-44cf-ab3d-5bd9f73aeda4.png">
+
+when package is installed, multiple files are kept in compartments 
+
+confined and unconfined 
+
+unconfined runs without restriction, 
+
+
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/106802147/227897231-f8808130-31aa-4a33-b0fb-632130ae60d9.png">
+
+<img width="757" alt="image" src="https://user-images.githubusercontent.com/106802147/227897757-68e50e25-7430-44d5-82cf-2df323e15ece.png">
+
+<img width="761" alt="image" src="https://user-images.githubusercontent.com/106802147/227898618-f55abf4d-764e-4aa0-be46-1db7c069963b.png">
+
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/106802147/227900196-44d87918-d425-419b-a203-a194214d1324.png">
+
+
+<img width="751" alt="image" src="https://user-images.githubusercontent.com/106802147/227899956-14295660-8f11-45af-bd08-e9af2e04dfae.png">
+

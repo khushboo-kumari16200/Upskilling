@@ -207,7 +207,13 @@ selinux user
 
 <img width="979" alt="image" src="https://user-images.githubusercontent.com/106802147/227901767-8a5d4233-99f2-406a-a741-df2e469300a6.png">
 
-<img width="818" alt="image" src="https://user-images.githubusercontent.com/106802147/227906689-c2c9c0e4-2372-44be-936c-6106d164d3a9.png">
-
 <img width="829" alt="image" src="https://user-images.githubusercontent.com/106802147/227906903-b0a75b7a-63c0-4c4b-92e9-6ebc21ad265b.png">
+
+Smack LSM
+
+<img width="744" alt="image" src="https://user-images.githubusercontent.com/106802147/227907308-37de41bc-5ff5-475a-98ca-0a69f25ac28d.png">
+
+WHEN WE get access vector cache error, how to setup new policy
+
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/106802147/227908176-4c4f48d3-b57c-4494-9689-9f6013e50625.png">
 

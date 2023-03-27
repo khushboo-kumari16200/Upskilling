@@ -151,5 +151,9 @@ Ubuntu
 
 <img width="969" alt="image" src="https://user-images.githubusercontent.com/106802147/227866931-67048f73-e073-4bb3-8709-92ebcd4f7c01.png">
 
+watch on file using -w  
+`sudo auditctl -h`
 <img width="673" alt="image" src="https://user-images.githubusercontent.com/106802147/227867717-aa1aa99c-1915-4f46-8d67-ab2880968265.png">
 
+sudo tail -f /etc/audit/audit.log
+<img width="1390" alt="image" src="https://user-images.githubusercontent.com/106802147/227868242-bae43749-da99-4ef7-b9cc-d2aeb4e6cad8.png">

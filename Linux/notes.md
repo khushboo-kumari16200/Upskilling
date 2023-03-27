@@ -66,3 +66,18 @@ root has uid=0 and is super user, check is disabled for root user, can access an
 
 To manage ACL, `man getfacl`, `getfacl .`, for every file access, multiple rule check, so *slow*.  
 
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/106802147/227849569-0868ee07-105c-4ce0-b285-26ce6705a638.png">
+
+## Extended attribute
+<img width="383" alt="image" src="https://user-images.githubusercontent.com/106802147/227850332-adfdfc86-dc00-4b94-9575-a9f8b2d8f23a.png">
+
+`lsattr`. 
+`chattr +a a.txt`. -> append only bit
+with even as root user, i can not overwrite, but modify. log rottater will flip this bit, rotate and chnage back the bit, 
+
+`chattr +i a.txt` -> immutability  
+`chattr -R +i dir1` 
+
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/106802147/227851659-82e73591-2748-4e9c-ac0d-4c941cbdc15d.png">
+
+

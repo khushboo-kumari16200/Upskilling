@@ -217,3 +217,19 @@ WHEN WE get access vector cache error, how to setup new policy
 
 <img width="749" alt="image" src="https://user-images.githubusercontent.com/106802147/227908176-4c4f48d3-b57c-4494-9689-9f6013e50625.png">
 
+<img width="1237" alt="image" src="https://user-images.githubusercontent.com/106802147/227913873-3c641aa3-f3f9-4c51-972c-412c8926abd2.png">
+
+<img width="743" alt="image" src="https://user-images.githubusercontent.com/106802147/227914247-ca98631d-f03f-42be-a143-1e6d706c8412.png">
+
+<img width="739" alt="image" src="https://user-images.githubusercontent.com/106802147/227914925-b38e9062-e92f-4c85-acc6-5eab702e04dc.png">
+
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/106802147/227908176-4c4f48d3-b57c-4494-9689-9f6013e50625.png">
+
+`strings /bin/ls` -> extract string from binary
+
+`strings /dev/mem`
+
+<img width="608" alt="image" src="https://user-images.githubusercontent.com/106802147/227917056-bf6f63de-f6e3-4326-9db4-6cbbc8d60c00.png">
+
+once lockdown enabled, no going back (but try system restart)
+

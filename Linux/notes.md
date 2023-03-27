@@ -242,4 +242,11 @@ untrusted module can not be loaded when confidentiality is enabled.
 
 <img width="701" alt="image" src="https://user-images.githubusercontent.com/106802147/227919189-4c748f14-ed19-44a8-9981-21f12adcddf2.png">
 
-untrusted module can not be loaded when confidentiality is enabled.
+<img width="672" alt="image" src="https://user-images.githubusercontent.com/106802147/227919871-bb8b0c5b-72f6-45be-9a87-c2210bf4c532.png">
+
+safely switch to user account, as switched user account can access everything that this had access too.
+
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/106802147/227921256-ddbd977c-9b73-43d3-9d13-e029fa26e572.png">
+
+
+

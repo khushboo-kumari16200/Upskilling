@@ -449,3 +449,77 @@ oom_score > 1k is not good, it can be killed.
 <img width="692" alt="image" src="https://user-images.githubusercontent.com/106802147/228159692-0671d6d0-6deb-4aa9-90e9-a8b98f6ea0f4.png">
 
 
+<img width="1094" alt="image" src="https://user-images.githubusercontent.com/106802147/228179786-8068de93-d961-4bbe-a336-eb046b3ad284.png">
+
+<img width="1419" alt="image" src="https://user-images.githubusercontent.com/106802147/228179907-864f6240-cd59-4ec1-bb96-381f48961f4c.png">
+
+brk is called after several malloc
+
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/106802147/228181988-6a950b60-d0bb-4d95-9e68-939428ecac8f.png">
+
+
+<img width="938" alt="image" src="https://user-images.githubusercontent.com/106802147/228182248-89aff035-b7d9-4d5d-9441-fe1e0daeacdd.png">
+
+
+first few allocation statisfied by 1st time allocation.
+
+<img width="178" alt="image" src="https://user-images.githubusercontent.com/106802147/228183091-5e9e3b85-0626-41e7-896c-6ebbab4dc3dd.png">
+
+in starting free list point to brk(NULL) wali value
+
+when you do malloc, it walks through free list, if present, alloc from that
+
+brk is called only when last chunk allocated is freed.
+
+<img width="1435" alt="image" src="https://user-images.githubusercontent.com/106802147/228185766-c3898eb8-2af5-4a21-9a1d-8921bbc743cf.png">
+
+<img width="1047" alt="image" src="https://user-images.githubusercontent.com/106802147/228189263-d15f7cf4-ed2b-41d8-8d53-37dcaed3a3a6.png">
+
+<img width="828" alt="image" src="https://user-images.githubusercontent.com/106802147/228189843-2c9721d8-cfe1-43a8-97b6-e9adf758c0b7.png">
+
+PTMalloc - per thread arena
+
+<img width="1044" alt="image" src="https://user-images.githubusercontent.com/106802147/228190212-ad2c311d-487f-4aab-a075-c6f5550c5a69.png">
+
+when main thread creates new thread by pthread_create -> it creates new thread arena -> it is capped on number of CPU cores.
+
+each arena is not pinned to a thread, it can go to any slot which is avilable. every arena has bit - if that is unset, then thread set and use that.
+
+first pin or bin -
+unsorted - every time you free, keep it here. 
+small bin - first time allocating, ...?
+
+<img width="1021" alt="image" src="https://user-images.githubusercontent.com/106802147/228192263-2284a534-32b8-4c8f-8b79-fd060a92bc9a.png">
+
+every thread will have its own arena, actual heap is common, metadata is maintained per thread
+
+<img width="797" alt="image" src="https://user-images.githubusercontent.com/106802147/228193931-ea7fd2bc-0e69-4df8-b1d6-d819b4363003.png">
+ 
+load this lib and unresolved symbol will be resolved by another specified lib
+
+Rust, firefox uses jemalloc
+
+<img width="921" alt="image" src="https://user-images.githubusercontent.com/106802147/228195308-4af666b1-be34-43ad-b38b-343ad0b845c2.png">
+
+<img width="1034" alt="image" src="https://user-images.githubusercontent.com/106802147/228198376-370fe1c7-6860-4990-b01f-ac0b63b88209.png">
+
+
+Control Group
+
+<img width="707" alt="image" src="https://user-images.githubusercontent.com/106802147/228205621-e50c96f0-ce65-4e32-aa1b-21def6e110b5.png">
+
+cgroup for network class, io - resource bandwidth
+
+<img width="711" alt="image" src="https://user-images.githubusercontent.com/106802147/228206373-c4f1e7aa-bf2a-4721-87a3-3124b96f8c4a.png">
+
+<img width="903" alt="image" src="https://user-images.githubusercontent.com/106802147/228207672-67f2b9bf-ac02-4cb1-87a2-a3e186f8aa91.png">
+
+<img width="930" alt="image" src="https://user-images.githubusercontent.com/106802147/228208034-4f8dd57d-98dc-402b-a935-9ea0c837281c.png">
+
+<img width="927" alt="image" src="https://user-images.githubusercontent.com/106802147/228208365-75387b08-f991-40f6-b4d1-c9590010ae1d.png">
+
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/106802147/228208655-60fcd8d7-cbee-4f14-be8f-25911aa30231.png">
+
+its all done using files and folders and not syscall.
+
+

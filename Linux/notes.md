@@ -289,3 +289,51 @@ tcp socket
 task structure in 
 
 <img width="517" alt="image" src="https://user-images.githubusercontent.com/106802147/228125936-250035c5-fd30-4b53-a5c5-c0c71b502c7c.png">
+
+important register details like program counter, base pointer etc are stored in thread_info, used while context switch
+
+<img width="525" alt="image" src="https://user-images.githubusercontent.com/106802147/228126152-1fd8659b-95da-4b5e-97bb-823b7b435ede.png">
+
+target is informed to run signal handler 
+<img width="797" alt="image" src="https://user-images.githubusercontent.com/106802147/228126559-a93c6931-58c7-4022-bc8f-774dd6002793.png">
+
+kernel maintian different stack for every task(process and thread)
+<img width="672" alt="image" src="https://user-images.githubusercontent.com/106802147/228126820-33acea05-c1b1-40c7-93ad-fdb977315549.png">
+
+single page - 4k 
+kernel stack - various func in kernel executed using this
+on_cpu =1 if executing on cpu.
+
+0 to 99 - for real time process, 0 - low priority
+
+-20 -> higher priority 
+
+real time 0 is higher than -20 priority 
+
+
+<img width="514" alt="image" src="https://user-images.githubusercontent.com/106802147/228127677-fca0b45a-3c62-4611-a5f6-78308a7d5ace.png">
+
+different scheduling method - policy
+<img width="516" alt="image" src="https://user-images.githubusercontent.com/106802147/228127787-66614bf9-5c37-4cc5-83a2-6633794d9931.png">
+
+which cpus can execute the process 
+
+mm -> process memory structure maintained by this
+<img width="507" alt="image" src="https://user-images.githubusercontent.com/106802147/228128093-ab1756de-95c5-4d6b-9b25-69358c84a1ee.png">
+
+kernel thread does not have user space-> for kernel thread mm pointer will be null.
+
+when context switch-> active_mm , kthread active mm will point to user space mm, used for lazy tlb handling
+
+<img width="724" alt="image" src="https://user-images.githubusercontent.com/106802147/228128524-1a4b357b-0b26-4eb6-8483-dc655b16306e.png">
+
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/106802147/228128638-47fc98e1-a980-4063-a51d-97a7a2f46d53.png">
+
+when process exists, parent process is notified by kernel. 
+
+when process is traced, tracer becomes parent process. 
+
+otherwise parent process is same as current process
+
+<img width="725" alt="image" src="https://user-images.githubusercontent.com/106802147/228128962-219e340a-f5b4-4ac6-97d5-602b7db9e8b7.png">
+

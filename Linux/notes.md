@@ -432,4 +432,10 @@ it task is in s->
 no of faults by process
 <img width="734" alt="image" src="https://user-images.githubusercontent.com/106802147/228152021-a8815b7c-2eb5-4b1b-a471-f9e59dba95bc.png">
 
+<img width="729" alt="image" src="https://user-images.githubusercontent.com/106802147/228153359-7b190741-47bf-4ab0-b8e9-2878ce70d806.png">
 
+<img width="587" alt="image" src="https://user-images.githubusercontent.com/106802147/228154435-617e828d-2d8b-496d-8915-626bf07993c2.png">
+
+
+
+<img width="722" alt="image" src="https://user-images.githubusercontent.com/106802147/228146104-89d69eac-7676-4487-9527-4481577982f8.png">

@@ -1,6 +1,10 @@
 ## Important Link
 https://notes.dhrona.net/p/li_mar_2023
 
+Day 1 presentations: https://files.chandrashekar.info/li1.pdf
+
+Day 2 presentations: https://files.chandrashekar.info/li2.pdf
+
 ## Linux Filesystem Security
 
 <img width="772" alt="image" src="https://user-images.githubusercontent.com/106802147/227838789-6aac24d3-cc78-4a7a-b13a-5acd08ec1981.png">
@@ -337,3 +341,66 @@ otherwise parent process is same as current process
 
 <img width="725" alt="image" src="https://user-images.githubusercontent.com/106802147/228128962-219e340a-f5b4-4ac6-97d5-602b7db9e8b7.png">
 
+<img width="1023" alt="image" src="https://user-images.githubusercontent.com/106802147/228129248-25d58026-55b5-4cb0-9745-354e08ed658e.png">
+
+`cat /proc/2872/status` 
+
+<img width="801" alt="image" src="https://user-images.githubusercontent.com/106802147/228129927-835543df-4dbd-4ac8-a0db-cb39c282bad4.png">
+
+execv syscall -> load process
+
+first process pid-1 is responsible for managing user space
+
+<img width="851" alt="image" src="https://user-images.githubusercontent.com/106802147/228130490-78a2343b-185a-470a-9fd9-81782c5e0250.png">
+
+<img width="737" alt="image" src="https://user-images.githubusercontent.com/106802147/228130910-abd193e6-cb01-45c2-97a7-6d7034469479.png">
+
+<img width="545" alt="image" src="https://user-images.githubusercontent.com/106802147/228131219-900e7965-318b-484e-bc91-ec45c4232abd.png">
+
+
+one way of multi-tasking -> when it create 2 diff process, they run in diff address space
+
+multi-threading  
+
+Native Threading: Kernel manages the threads of the user-space process (a.k.a Kernel-supported-Threading / Light-Weight-Processes -> LWPs). Get benefits of preemptive scheduling. Good for CPU intensive work
+
+User Threading: Threading implementation fully in userspace (governed by a library) - no kernel intervention is required. Relies more on co-operative scheduling. not good for cpu intensive work, good for IO intensive work. Ex: socket programming-> 1000 connections.
+
+
+early generation('90s) pthread library is user threading library
+
+NPTL -> Native POSIX Threading Library -> pthread library that uses native threading. 
+
+<img width="915" alt="image" src="https://user-images.githubusercontent.com/106802147/228133920-12aeeaec-f05d-4a8b-8dad-444638253b71.png">
+
+THIS Is ntpl way?
+<img width="547" alt="image" src="https://user-images.githubusercontent.com/106802147/228134239-8fc5f68b-b8bd-49f5-8d90-b928a458ba0f.png">
+
+<img width="1025" alt="image" src="https://user-images.githubusercontent.com/106802147/228134415-2212b8a1-3f45-4259-8ef6-5b7a3febbd29.png">
+
+deep copy-> all inner structure are copied. every task will have their own inner structure. -> process
+ 
+shallow copy -> share file structure, mm, signal handle, mount etc. -> thread
+
+<img width="792" alt="image" src="https://user-images.githubusercontent.com/106802147/228135082-ed9bf5f3-904b-4348-8727-e7f2237df2ec.png">
+
+<img width="830" alt="image" src="https://user-images.githubusercontent.com/106802147/228135273-8abb86c9-5f18-4527-b951-e438544b8645.png">
+
+user space virtual map structure
+
+pgd_t -> page dir structure -> points to page table, used in virtual to physical address translation
+
+<img width="717" alt="image" src="https://user-images.githubusercontent.com/106802147/228135868-49e37c7b-9d2c-4101-99fd-bc599efd21f7.png">
+
+<img width="826" alt="image" src="https://user-images.githubusercontent.com/106802147/228135296-5ff2c81f-ae19-42ea-b759-e2d329c11a67.png">
+
+<img width="725" alt="image" src="https://user-images.githubusercontent.com/106802147/228136346-3f52fe64-ce2f-40cd-8ccb-86cbf50dc18c.png">
+
+<img width="666" alt="image" src="https://user-images.githubusercontent.com/106802147/228136434-05a47f5a-331d-4f0d-89da-cfed3657ff61.png">
+
+
+<img width="831" alt="image" src="https://user-images.githubusercontent.com/106802147/228136850-b116e899-4233-45b9-85fa-1ff9bade55fb.png">
+
+<img width="909" alt="image" src="https://user-images.githubusercontent.com/106802147/228137742-722239e3-f416-45aa-bfb0-9ab2a51a5ae2.png">
+
+<img width="733" alt="image" src="https://user-images.githubusercontent.com/106802147/228137963-0702a0f4-d001-4f22-8cea-40bbfaf5593d.png">

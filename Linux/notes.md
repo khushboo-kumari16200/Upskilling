@@ -280,3 +280,12 @@ tcp socket
 
 <img width="726" alt="image" src="https://user-images.githubusercontent.com/106802147/227924593-54107360-d84c-4e5f-8410-716dfd621380.png">
 
+## Day 2
+
+<img width="675" alt="image" src="https://user-images.githubusercontent.com/106802147/228125311-51dd55e9-585c-4794-b0cc-7e30504aec32.png">
+
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/106802147/228125466-46cfe423-71b1-4b78-a548-554ea47fcdcf.png">
+
+task structure in 
+
+<img width="517" alt="image" src="https://user-images.githubusercontent.com/106802147/228125936-250035c5-fd30-4b53-a5c5-c0c71b502c7c.png">

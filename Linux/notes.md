@@ -445,3 +445,7 @@ no of faults by process
 oom_score > 1k is not good, it can be killed.
 
 `sudo demsg`
+
+<img width="692" alt="image" src="https://user-images.githubusercontent.com/106802147/228159692-0671d6d0-6deb-4aa9-90e9-a8b98f6ea0f4.png">
+
+

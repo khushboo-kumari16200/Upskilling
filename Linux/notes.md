@@ -404,3 +404,32 @@ pgd_t -> page dir structure -> points to page table, used in virtual to physical
 <img width="909" alt="image" src="https://user-images.githubusercontent.com/106802147/228137742-722239e3-f416-45aa-bfb0-9ab2a51a5ae2.png">
 
 <img width="733" alt="image" src="https://user-images.githubusercontent.com/106802147/228137963-0702a0f4-d001-4f22-8cea-40bbfaf5593d.png">
+
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/106802147/228142907-cc007cf0-6ac0-4b1f-b9d5-6bbb32968466.png">
+
+if kernel stack is empty, it is not using any syscall, just running in user mode.
+
+<img width="811" alt="image" src="https://user-images.githubusercontent.com/106802147/228143530-297417dd-fe31-4eec-9bf2-ce2f52b5b99d.png">
+
+`gdb -p pid`
+
+`ps x` -> if it has t+ -> means it has been traced
+
+<img width="839" alt="image" src="https://user-images.githubusercontent.com/106802147/228145489-bb08032b-ec6c-4226-9280-4fee08e36ecc.png">
+
+if it is 0, no body is tracing it
+
+<img width="722" alt="image" src="https://user-images.githubusercontent.com/106802147/228146104-89d69eac-7676-4487-9527-4481577982f8.png">
+
+i-> idle 
+
+it task is in s->
+
+<img width="1042" alt="image" src="https://user-images.githubusercontent.com/106802147/228147928-139e4f86-144a-4def-93ee-9299bbbb2579.png">
+
+<img width="755" alt="image" src="https://user-images.githubusercontent.com/106802147/228151458-b1bdad23-18f1-4cad-b193-9fbfa7cddd18.png">
+
+no of faults by process
+<img width="734" alt="image" src="https://user-images.githubusercontent.com/106802147/228152021-a8815b7c-2eb5-4b1b-a471-f9e59dba95bc.png">
+
+
